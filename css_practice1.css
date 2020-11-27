@@ -1,0 +1,47 @@
+
+/* simple selector */
+h1{
+    color: red;
+}
+#p1{
+    color: grey;
+}
+.p2{
+    color: chartreuse;
+}
+/* combinators selector */
+/* div p{
+    color: cyan;
+} */
+/* pseudo-class selector */
+a:hover{
+    color: rgb(228, 35, 35);
+}
+/* a:active{
+    color:red;
+} */
+
+/* pseudo element selector */
+.p3::first-letter{
+    color: darkgreen;
+    font-size: x-large;
+}
+/* attribute selector */
+input[type="text"]{
+    border: 2px solid red;
+}
+/* all selector */
+*{
+    font-weight: bolder;
+}
+/* group selector */
+.h3, .p5{
+    color: rgb(205, 90, 148);
+}
+/* class selector */
+.class1 .class2{
+    color: rgb(231, 20, 48);
+}
+/* .class2{
+    color: red;
+} */
